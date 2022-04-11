@@ -96,6 +96,9 @@ p {
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav-link:hover,
@@ -138,6 +141,9 @@ p {
     letter-spacing: 0.02em;
     text-decoration: none;
     fill: var(--main-text-color);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover,
@@ -331,6 +337,9 @@ p {
     height: 44px;
     border-radius: 50%;
     fill: var(--social-color);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-links li:not(:last-child) {
@@ -367,6 +376,9 @@ p {
     border-radius: 4px;
     border: 1px solid var(--social-color);
     color: var(--social-color);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-icon {
@@ -416,6 +428,9 @@ p {
     font-style: normal;
     line-height: 1.71;
     color: var(--footer-text-color);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link.white {
     color: var(--white-color);
@@ -459,6 +474,9 @@ p {
     height: 44px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials .link:hover,
@@ -497,6 +515,9 @@ p {
     letter-spacing: 0.03em;
     cursor: pointer;
     font-family: 'Roboto';
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover,
@@ -520,6 +541,9 @@ p {
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc(100% / 3 - 30px);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-set .item:hover {
