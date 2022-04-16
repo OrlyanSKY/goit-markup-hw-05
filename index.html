@@ -69,9 +69,13 @@
                         Заказать услугу
                     </button>
                 </div>
-                <div class="backdrop" data-modal>
+                <div class="backdrop is-hidden" data-modal>
                     <div class="modal">
-                        <button data-modal-close>off</button>
+                        <button class="modal-btn" data-modal-close>
+                            <svg class="modal-btn-icon" width="11" height="11">
+                                <use href="./images/symbol-defs.svg#icon-close-cross"></use>
+                            </svg>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -139,24 +143,33 @@
                 <div class="container">
                     <h2 class="section-title">Чем мы занимаемся</h2>
                     <ul class="products list">
-                        <li class="item">
+                        <li class="product-item">
                             <img src="./images/boxone.jpg" width="370" height="294" alt="ноут" />
+                            <div class="lable">
+                                <h3 class="product-title">Десктопные приложения</h3>
+                            </div>
                         </li>
-                        <li class="item">
+                        <li class="product-item">
                             <img
                                 src="./images/box-two.jpg"
                                 width="370"
                                 height="294"
                                 alt="телефон"
                             />
+                            <div class="lable">
+                                <h3 class="product-title">Мобильные приложения</h3>
+                            </div>
                         </li>
-                        <li class="item">
+                        <li class="product-item">
                             <img
                                 src="./images/box-three.jpg"
                                 width="370"
                                 height="294"
                                 alt="планшет"
                             />
+                            <div class="lable">
+                                <h3 class="product-title">Дизайнерские решения</h3>
+                            </div>
                         </li>
                     </ul>
                 </div>
